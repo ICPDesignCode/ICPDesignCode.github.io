@@ -1,0 +1,25 @@
+body, h1, h2, p, ul, li { margin: 0; padding: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+ul, li { list-style: none; }
+h1 { font-weight: 700; font-size: 48px; line-height: 50px; margin-bottom: 15px; }
+h1 span { color: #999; padding: 0 8px; }
+h2 { font-weight: 400; font-size: 18px; line-height: 24px; }
+p, ul, li { font-weight: 400; font-size: 30px; line-height: 36px; }
+h2 { margin-bottom: 120px; }
+
+.container-fluid { width: 100%; text-align: center; }
+.container { max-width: 960px; padding: 60px 10px 120px; text-align: left; margin: 0 auto; }
+
+.lesson-plan > li { min-height: 60px; }
+.lesson-plan li > p { border-bottom: 1px solid #ccc; color: #ccc; font-weight: bold; }
+.lesson-plan li p.disabled { padding: 24px 0 14px 60px; }
+.lesson-plan li p a { padding: 24px 0 14px 60px; text-decoration: none; color: #000; display: block; }
+.lesson-plan li p a:hover { color: #f30; }
+.lesson-plan li .week { font-weight: 700; font-size: 30px; width: 60px; margin-left: -60px; display: inline-block; }
+.lesson-plan li p a .week { color: #f30; }
+
+.notes { margin: 30px 0; }
+.notes > p, .notes > ul { border-bottom: none; margin: 0 60px; color: #555; max-width: 640px; }
+.notes a { color: #f33; text-decoration: none; }
+.notes > p, .notes li { padding-bottom: 15px; font-size: 14px; line-height: 20px; }
+.notes li { list-style-type: circle; }
+.notes.hidden { display: none; }
