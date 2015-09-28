@@ -18,8 +18,8 @@ h2 { margin-bottom: 120px; }
 .lesson-plan li p a .week { color: #f30; }
 
 .notes { margin: 30px 0; }
-.notes > p, .notes > ul { border-bottom: none; margin: 0 60px; color: #555; max-width: 640px; }
+.notes > p, .notes > ul { border-bottom: none; margin: 0 60px; color: #555; max-width: 800px; }
 .notes a { color: #f33; text-decoration: none; }
-.notes > p, .notes li { padding-bottom: 15px; font-size: 14px; line-height: 20px; }
+.notes > p, .notes li { padding-bottom: 18px; font-size: 15px; line-height: 20px; }
 .notes li { list-style-type: circle; }
-.notes.hidden { display: none; }
+.hidden { display: none; }
