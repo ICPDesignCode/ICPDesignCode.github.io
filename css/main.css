@@ -12,8 +12,8 @@ h2 { margin-bottom: 120px; }
 .lesson-plan > li { min-height: 60px; }
 .lesson-plan li > p { border-bottom: 1px solid #ccc; color: #ccc; font-weight: bold; }
 .lesson-plan li p.disabled { padding: 24px 0 14px 60px; }
-.lesson-plan li p a { padding: 24px 0 14px 60px; text-decoration: none; color: #000; display: block; }
-.lesson-plan li p a:hover { color: #f30; }
+.lesson-plan li > p a { padding: 24px 0 14px 60px; text-decoration: none; color: #000; display: block; }
+.lesson-plan li > p a:hover { color: #f30; }
 .lesson-plan li .week { font-weight: 700; font-size: 30px; width: 60px; margin-left: -60px; display: inline-block; }
 .lesson-plan li p a .week { color: #f30; }
 
@@ -22,4 +22,5 @@ h2 { margin-bottom: 120px; }
 .notes a { color: #f33; text-decoration: none; }
 .notes > p, .notes li { padding-bottom: 15px; font-size: 14px; line-height: 20px; }
 .notes li { list-style-type: circle; }
+.notes .separator { border-bottom: 1px dotted #555; margin: 10px 0 30px 60px; }
 .notes.hidden { display: none; }
