@@ -26,14 +26,16 @@ h2 { margin-bottom: 120px; }
 .notes.hidden { display: none; }
 
 
-@media only screen and (max-width: 320px) {
-  h1 { font-size: 3em; }
-}
-
 @media screen and
   (max-width: 320px) and
   (-webkit-device-pixel-ratio: 2) {
     h1 { font-size: 2em; line-height: 25px; }
     h2 { margin-bottom: 60px; }
     p, ul, li { font-size: 1em; line-height: 1.01em; }
+}
+
+@media screen and
+  (max-width: 320px) and
+  (-webkit-device-pixel-ratio: 1) {
+    h1 { font-size: 3em; }
 }
